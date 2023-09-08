@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c386037d-1591-40be-bec5-f4d4fabbb61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{443b6432-61e6-4c5d-903d-2c8beec23925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{7f2ebb3b-6e5e-4f13-a558-34f225ccd2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validation">
+      <UniqueIdentifier>{ea722f37-8f28-4b5b-8cf1-7e4f053311af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validation\User_fields">
+      <UniqueIdentifier>{e2d4b093-5935-42fc-b4f9-5654d6fef731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuyNSell++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CategoryController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductSaler.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductQuantity.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchOptions.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProductsOptions.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Cart.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BalanceController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderProduct.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="BalanceOptions.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DB.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="UserModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Email.h">
+      <Filter>Validation\User_fields</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Validation\User_fields</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordComformation.h">
+      <Filter>Validation\User_fields</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordField.h">
+      <Filter>Validation\User_fields</Filter>
+    </ClInclude>
+    <ClInclude Include="UsernameField.h">
+      <Filter>Validation\User_fields</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryField.h">
+      <Filter>Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductNameField.h">
+      <Filter>Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceField.h">
+      <Filter>Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantityField.h">
+      <Filter>Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductSaler.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductQuantity.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchOptions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProductsOptions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cart.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderProduct.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceOptions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
